@@ -1,0 +1,3 @@
+evdev:atkbd:dmi:bvn*:bvr*:bd*:svn*:pnJinlon:pvr*
+ KEYBOARD_KEY_97=!kbdillumdown
+ KEYBOARD_KEY_92=scale
