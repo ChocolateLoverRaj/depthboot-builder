@@ -329,6 +329,7 @@ def post_extract(build_options) -> None:
         # Install hwdb file to fix auto rotate being flipped on some devices
         cpfile("configs/hwdb/61-sensor.hwdb", "/mnt/depthboot/etc/udev/hwdb.d/61-sensor.hwdb")
 
+        print_status("Fixing jinlon scan codes")
         # Install hwdb file to fix keys doing the wrong actions on jinlon
         cpfile("configs/hwdb/90-custom-keyboard.hwdb", "/mnt/depthboot/etc/udev/hwdb.d/90-custom-keyboard.hwdb")
 
