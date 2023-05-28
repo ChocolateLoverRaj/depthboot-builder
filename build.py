@@ -331,7 +331,7 @@ def post_extract(build_options) -> None:
 
         print_status("Fixing jinlon scan codes")
         # Install hwdb file to fix keys doing the wrong actions on jinlon
-        cpfile("configs/hwdb/90-custom-keyboard.hwdb", "/mnt/depthboot/etc/udev/hwdb.d/90-custom-keyboard.hwdb")
+        cpfile("configs/hwdb/60-jinlon-keyboard.hwdb", "/mnt/depthboot/etc/udev/hwdb.d/60-jinlon-keyboard.hwdb")
 
         # Compile hwdb with the new .hwdb files
         chroot("systemd-hwdb update")
