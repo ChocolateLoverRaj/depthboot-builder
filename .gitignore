@@ -1,5 +1,5 @@
 /.idea/
 depthboot.img
 kernel.flags
-/__pycache__/
+__pycache__
 /venv/
